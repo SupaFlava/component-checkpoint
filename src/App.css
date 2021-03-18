@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #b8b5ff;
+}
+.App {
+  text-align: center;
+}
+.Name {
+  color: #e4fbff;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+  text-shadow: 2px 1px;
+}
+.Name:hover,
+.Adress:hover {
+  color: #7868e6;
+  text-decoration: none;
+}
+.Adress {
+  margin: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0 0 72px;
+  text-align: center;
+  text-decoration: underline;
+
+  color: #e4fbff;
+}
+.img {
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.img:hover {
+  width: 160px;
+  height: 160px;
+  border: 2px solid #e4fbff;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
